@@ -39,11 +39,15 @@ A simple nodejs application to handle set of API calls.
     * Route - Body : email
     
     ![forgot password route](./public/assets/images/3.png)
+
+    * After using forgot password route it will send mail with reset code to the registered mail using sendgrid API sservice.
+
+    ![reset password route](./public/assets/images/4.png)
   * /api/auth/resetpassword
     * Route - Type : POST
     * Route - Body : email, code, password
     
-    ![reset password route](./public/assets/images/4.png)
+    ![reset password route](./public/assets/images/5.png)
   * /api/media/upload
     * Route - Type : POST
     * Route - Body : medianame, description. media(file)
