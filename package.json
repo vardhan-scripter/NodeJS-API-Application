@@ -1,0 +1,14 @@
+{
+    "name": "proxynotes",
+    "version": "1.0.0",
+    "description": "A Nodejs demo app created in internship selection process",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "V-Scripter",
+    "license": "ISC",
+    "dependencies": {
+        "@sendgrid/mail": "^6.4.0"
+    }
+}
